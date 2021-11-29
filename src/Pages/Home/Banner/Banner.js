@@ -3,7 +3,7 @@ import mehedi from "../../../images/mehedi-removebg-preview.png"
 import "./Banner.css"
 const Banner = () => {
     return (
-        <div>
+        <div className="mb-5">
             <div className="container d-flex row p-5 align-item-center justify-content-center">
                 <div className="col-md-5 p-5 rounded-circle  border-3 border-white">
 

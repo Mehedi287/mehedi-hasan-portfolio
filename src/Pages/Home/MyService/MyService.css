@@ -1,0 +1,6 @@
+.service{
+    border: 1px solid gray;
+    background-color:rgba(71, 70, 68, 0.801) ;
+    border-radius: 15px;
+    padding: 20px;
+}
