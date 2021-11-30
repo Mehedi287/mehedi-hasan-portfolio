@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="about-me text-align-left">
 
                         <small>Junior Web Developer</small><br />
-                        <h1> <span class="m">M</span>ehedi Hasan</h1><br />
+                        <h1 className="name"> <span class="m">M</span>ehedi Hasan</h1><br />
                         <p className="text-align-left">I am a simple man who is trying to learn something every moment. I am learning font-end web development with the  Programming Hero community. I always love to upgrade myself to new programming skills. I try created and designed a super responsive website. I have one year experience with ,HTML,CSS,JS,React Router.</p><br />
                     </div>
                     <div className="d-flex row g-4">

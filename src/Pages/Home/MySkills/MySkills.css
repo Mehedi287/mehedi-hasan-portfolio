@@ -2,6 +2,10 @@
     padding: 15px;
     background-color: rgb(71, 70, 70);
     border-radius: 14px;
+    
+}
+.skill:hover{
+    box-shadow: rgba(121, 113, 113, 0.56) 0px 22px 70px 4px;
 }
 .my{
     color: deeppink;
@@ -12,3 +16,5 @@
 .hr1{
     border-bottom: 2px solid rgb(230, 252, 135);
 }
+
+

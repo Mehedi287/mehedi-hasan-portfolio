@@ -14,9 +14,11 @@ import Details from './Pages/Details/Details';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Blogs from './Pages/Bloges/Blogs';
 import backgroun from "../src/images/background.mp4";
+import Particles from 'react-particles-js';
 function App() {
   return (
     <div className="App">
+
       <div className="custom-body">
         <BrowserRouter>
           <Header></Header>
