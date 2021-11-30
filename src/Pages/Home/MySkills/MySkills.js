@@ -4,9 +4,9 @@ import html from "../../../images/html_and_css-removebg-preview.png"
 const MySkills = () => {
     return (
         <div>
-            <h1>My Skills</h1>
+            <h1> <span className="my">My</span> <span className="skills">Skills</span></h1>
 
-            <hr className="mb-5" />
+            <hr className="mb-5 hr1" />
             <div className="container d-flex row mx-auto p-4">
                 <div className="col-md-5">
                     <img className="img-fluid w-75" src={html} alt="" />

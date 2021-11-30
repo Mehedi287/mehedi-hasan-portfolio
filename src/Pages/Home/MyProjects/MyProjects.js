@@ -15,8 +15,8 @@ const Myservices = () => {
     }
     return (
         <div className="mt-5">
-            <h1>My Projects {projects.length}</h1>
-            <hr className="mb-5" />
+            <h1>My <span className="pro">Projects</span></h1>
+            <hr className="mb-5 hr4" />
 
             <div className="container project-container">
 

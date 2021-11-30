@@ -4,7 +4,7 @@ import mededi2 from "../../images/mehedi2.jpg"
 const AboutMe = () => {
     return (
         <>
-            <div className="container mt-5">
+            <div className="container mt-5 p-4">
                 <div className="container d-flex row g-3">
                     <div className="col-md-5 p-3 ">
                         <img className="img-fluid rounded mehedi2" src={mededi2} alt="" />
@@ -19,7 +19,7 @@ const AboutMe = () => {
 
                 </div>
                 <div className="container d-flex row g-3 mt-5 ms-md-5">
-                    <div className="col-md-6 education p-3">
+                    <div className="col-md-4 education p-3">
                         <h4>Education : </h4>
                         <h5>Diploma in Engineering at Brahmnbaria Polytechnic Institute</h5>
                         <ul>
@@ -41,13 +41,25 @@ const AboutMe = () => {
                         </ul>
 
                     </div>
-                    <div className="col-md-6 education p-3">
+                    <div className="col-md-4 education p-3">
                         <h3>Interest</h3>
                         <ul>
                             <li>Learning</li>
                             <li>Coding</li>
                             <li>Programming</li>
                             <li>Playing</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4 education p-3">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>React Router</li>
+                            <li>Firebase</li>
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
                         </ul>
                     </div>
                 </div>

@@ -4,11 +4,11 @@ import "./Header.css"
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <div className="">
+            <Navbar className="header" collapseOnSelect expand="lg" fixed="top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home"> <span className="logo"> M</span>  Mehedi Hasan</Navbar.Brand>
-                    <Navbar fixed="top" />
+                    <Navbar />
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">

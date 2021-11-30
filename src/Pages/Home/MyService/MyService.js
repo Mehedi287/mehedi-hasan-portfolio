@@ -3,8 +3,8 @@ import "./MyService.css"
 const MyService = () => {
     return (
         <div className="mt-5">
-            <h1>My Services</h1>
-            <hr className="mb-5" />
+            <h1><span className="my2">My</span> <span className="ser">Services</span></h1>
+            <hr className="mb-5 hr3" />
             <div className="d-flex row g-4 mx-auto">
                 <div className="col-md-4 ">
                     <div className="service">

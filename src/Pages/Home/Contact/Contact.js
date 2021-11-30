@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useForm, ValidationError } from '@formspree/react';
-
+import "./Contact.css"
 
 
 
@@ -11,7 +11,7 @@ const Contact = () => {
 
     return (
         <div id="contact" className="mt-5">
-            <h1>Contact With Me</h1>
+            <h1>Contact <span className="with">With</span> Me</h1>
             <div className="border-md w-xs-75 w-md-50 rounded mx-auto p-4">
 
                 <form onSubmit={handleSubmit}>

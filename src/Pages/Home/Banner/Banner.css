@@ -52,5 +52,12 @@ border-radius: 50%;
   color:rgb(164, 241, 164)
 }
  
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&display=swap');
+ 
+.m{
+  color: rgba(241, 81, 241, 0.836);
+  font-family: 'Noto Serif Display', serif;
+}
+ 
 
  

@@ -3,3 +3,12 @@
     background-color: rgb(71, 70, 70);
     border-radius: 14px;
 }
+.my{
+    color: deeppink;
+}
+.skills{
+    color:rgba(192, 236, 247, 0.801)
+}
+.hr1{
+    border-bottom: 2px solid rgb(230, 252, 135);
+}
