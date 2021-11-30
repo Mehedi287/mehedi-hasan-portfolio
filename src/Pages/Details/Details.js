@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Carousel, Form } from 'react-bootstrap';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
+
 import "./Details.css"
 const Details = () => {
     const [detailse, setDetailse] = useState([]);
@@ -23,7 +23,7 @@ const Details = () => {
 
     return (
         <div className=" p-md-2 mt-sm-4 mx-auto" >
-            <h1>Project Details</h1>
+            <h1 className="m-3">Project Details</h1>
             <div className="details">
                 <div className="">
                     <Carousel className="w-50 mx-auto">

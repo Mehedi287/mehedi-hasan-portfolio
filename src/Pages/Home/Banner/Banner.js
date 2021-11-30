@@ -16,13 +16,33 @@ const Banner = () => {
 
                         <small>Junior Web Developer</small><br />
                         <h1>Mehedi Hasan</h1><br />
-                        <p className="text-align-left">Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p><br />
+                        <p className="text-align-left">I am a simple man who is trying to learn something every moment. I am learning font-end web development with the  Programming Hero community. I always love to upgrade myself to new programming skills. I try created and designed a super responsive website. I have one year experience with ,HTML,CSS,JS,React Router.</p><br />
                     </div>
-                    <div className="d-flex row">
+                    <div className="d-flex row g-4">
+                        <div className="col-md-4 ">
+                            <a className="text-decoration-none" href="mehedihasan@gmail.com">
+                                <i class=" icon fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div className="col-md-4 ">
+                            <a href="https://github.com/Mehedi287">
+                                <i class="icon fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div className="col-md-4 ">
+                            <a href="https://www.linkedin.com/in/mehedi-hasan-617040227">
+                                <i class="col-md-4 icon fab fa-linkedin"></i>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                    <div className="d-flex row m-3">
                         <div className="btn-container col">
                             <div className="center">
 
-                                <button class="button-24" role="button"><a className="text-decoration-none text-white" target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F13WjZZaGB1NpyGWEiHsafOhmBNnIP4p9l%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR2JffIXDPHSPbAZuanKhjNQsvHHLZbDbxIgBVRD7h_QjylxfeLSJ46tnaM&h=AT3giUC3ojcoDGi0TR5bNFjVFzOtQNxC5kU9Uj1ZWwruQtGWNE5bz-q84U42ZAHhKeLKq3_btLA5JEh0bvBrJRZuHKNMEMmaU5sDhcqyB0vl6dGEKGvwsuGGWFrMmyUr_GEJ2w">Download Resume</a></button>
+                                <button class="button-24" role="button"><a className="text-decoration-none text-white" target="_blank" href="https://drive.google.com/file/d/13WjZZaGB1NpyGWEiHsafOhmBNnIP4p9l/view?usp=sharing">Download Resume</a></button>
                             </div>
                         </div>
                         <div className="btn-container col ms-0">

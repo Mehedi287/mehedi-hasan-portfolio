@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./MyProjects.css"
-import tesla from "../../../images/tesla.png"
-import health from "../../../images/health-care.png"
-import slider from "../../../images/create-slider.png"
-import mak from "../../../images/mack-book.png"
+
 import ProjectCart from '../ProjectCart/ProjectCart';
 const Myservices = () => {
     const [projects, setProjects] = useState([]);
@@ -19,7 +16,7 @@ const Myservices = () => {
     return (
         <div className="mt-5">
             <h1>My Projects {projects.length}</h1>
-            <hr />
+            <hr className="mb-5" />
 
             <div className="container project-container">
 

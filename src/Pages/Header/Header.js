@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import "./Header.css"
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
@@ -11,15 +12,16 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Link className="text-decoration-none text-white " to="/home">Home</Link>
+                            <Link className="text-decoration-none text-white ms-2" to="/aboutMe">About Me</Link>
+                            <a className="text-decoration-none text-white ms-2" href="#contact">Contact</a>
 
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
+                            <Link className="text-decoration-none text-white ms-2" to="blog"> My Blogs</Link>
+                            <Link eventKey={2} href="#memes">
+
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -11,6 +11,8 @@ import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 import NoteFound from './Pages/NoteFound/NoteFound';
 import Details from './Pages/Details/Details';
+import AboutMe from './Pages/AboutMe/AboutMe';
+import Blogs from './Pages/Bloges/Blogs';
 
 function App() {
   return (
@@ -23,6 +25,12 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/blog">
+            <Blogs></Blogs>
+          </Route>
+          <Route path="/aboutMe">
+            <AboutMe></AboutMe>
           </Route>
           <Route path="/details/:serviceId">
             <Details></Details>
