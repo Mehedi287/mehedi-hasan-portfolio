@@ -1,0 +1,19 @@
+.project{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: rgba(58, 55, 55, 0.808);
+    
+}
+.project img{
+     border-radius: 20px;
+}
+.project button{
+    margin-top:-50px ;
+   
+}
+/* .btn-container{
+    display: none!important;
+}
+.project:hover.btn-container{
+    display: inline;
+} */

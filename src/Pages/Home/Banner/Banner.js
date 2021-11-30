@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mehedi from "../../../images/mehedi-removebg-preview.png"
 import "./Banner.css"
 const Banner = () => {
@@ -20,25 +21,12 @@ const Banner = () => {
                     <div className="d-flex row">
                         <div className="btn-container col">
                             <div className="center">
-                                <button className="btn">
-                                    <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
-                                        <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
-                                        <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
-                                    </svg>
-                                    <span>Download CV</span>
-                                </button>
+
+                                <button class="button-24" role="button"><a className="text-decoration-none text-white" target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F13WjZZaGB1NpyGWEiHsafOhmBNnIP4p9l%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR2JffIXDPHSPbAZuanKhjNQsvHHLZbDbxIgBVRD7h_QjylxfeLSJ46tnaM&h=AT3giUC3ojcoDGi0TR5bNFjVFzOtQNxC5kU9Uj1ZWwruQtGWNE5bz-q84U42ZAHhKeLKq3_btLA5JEh0bvBrJRZuHKNMEMmaU5sDhcqyB0vl6dGEKGvwsuGGWFrMmyUr_GEJ2w">Download Resume</a></button>
                             </div>
                         </div>
                         <div className="btn-container col ms-0">
-                            <div className="center">
-                                <button className="btn">
-                                    <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
-                                        <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
-                                        <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
-                                    </svg>
-                                    <span>Contact</span>
-                                </button>
-                            </div>
+                            <button class="button-24" role="button"> <a href="#contact" className="text-decoration-none text-white">Contact</a> </button>
                         </div>
                     </div>
                 </div>

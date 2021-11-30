@@ -1,8 +1,44 @@
- 
+ /* CSS */
+ .button-24 {
+   transition: 0.4s all;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
 .mehedi{
 width: 500px!important;
 background-color: rgb(255, 252, 252);
-border: 4px solid rgb(95, 93, 93);
+border: 8px solid rgb(95, 93, 93);
  
 border-radius: 50%;
 }
@@ -13,64 +49,4 @@ border-radius: 50%;
 }
  
 
-body, html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-   font-family: 'Lato', sans-serif;
-}
-
-/* .btn-container {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-   
-} */
-
-.center {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-}
-
-.btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: rgb(4, 253, 79);
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-
-.btn:hover {
-  transition: 1s ease-in-out;
-  background-color: rgb(49, 53, 53);
-  color:black
-}
-
-.btn:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.btn span {
-  color: white;
-  font-size: 18px;
-  font-weight: 100;
-}
+ 
