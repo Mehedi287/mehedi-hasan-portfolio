@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Tesla Car Shop",
+        "img1": "https://i.ibb.co/C28Sj9c/tesla.png",
+        "img2": "https://i.ibb.co/JRHz9XH/259061539-325460459420028-227964968265307452-n.jpg",
+        "img3": "https://i.ibb.co/GphXnYj/260719268-430896158592821-5977062111863706792-n.jpg",
+        "details": "User login or signup system ,Without login user cannot Order any product,User can give a review ,and purchase any product,User can see and delete her own order.Dashboard feature.Admin route.Admin can add a service or delete a service .Admin can delete any order",
+        "clientSide": "React,Mui,JS,React Hook Form,Firebase",
+        "database": "MongoDB, ,Express,Axios,Cros",
+        "Hosting": "Firebase,Heroku",
+        "liveLink": "https://assignment-12-965ed.web.app/home",
+        "clientLink": " https://github.com/programming-hero-web-course-4/niche-website-client-side-Mehedi287",
+        "serverSiteLink": "https://github.com/programming-hero-web-course-4/niche-website-server-side-Mehedi287"
+    },
+    {
+        "id": 2,
+        "name": "Health Care",
+        "img1": "https://i.postimg.cc/YqMfp5Pv/health-care.png",
+        "img2": "https://i.ibb.co/5KxY4cR/260437249-619701049380625-7409640172627975469-n.jpg",
+        "img3": "https://i.ibb.co/PCRBBW5/260839044-1022347511944111-7195024223750287634-n.jpg",
+        "details": "User login or signup system and logout system,Without login user cannot see details of services",
+        "clientSide": "React,React Bootstarp,React Roter,JS,Firebase,Privet Route,UseAuth,Custom Hok",
+        "database": "MongoDB,",
+        "Hosting": "Firebase,Heroku",
+        "liveLink": "https://assignment-10-aed76.web.app/home",
+        "clientLink": "https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Mehedi287"
+    },
+    {
+        "id": 3,
+        "name": "Fit Meal",
+        "img1": "https://i.ibb.co/TPSWGmv/meal-db.png",
+        "img2": "https://i.ibb.co/CVD6yWn/259022485-620032502613049-7842961948506180363-n.jpg",
+        "img3": "https://i.ibb.co/cFtwMxm/261916845-435028458067225-3249776864575792163-n.jpg",
+        "details": "User login or signup system ,user can Order any product,User can see her order and delete any order,user can add a service .user can contact with us.Manage all orders",
+        "clientSide": "React,React Roter,React Bootstrap,JS,React Hook Form,Firebase",
+        "database": "MongoDB, ,Express,Axios,Cros",
+        "Hosting": "Firebase,Heroku",
+        "liveLink": "https://assignment-11-84611.web.app/home",
+        "clientLink": " https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-Mehedi287",
+        "serverSiteLink": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Mehedi287"
+    },
+    {
+        "id": 4,
+        "name": "Mack Book",
+        "img1": "https://i.ibb.co/hfhjw3K/mack-book.png",
+        "img2": "https://i.ibb.co/YLSDhFB/260873889-403805261471633-3761122313322547136-n.jpg",
+        "img3": "https://i.ibb.co/TmGQVV0/262746024-478877546885231-5116218810575476009-n.jpg",
+        "details": "User can Buy a computer.when user selected extra category then user need extra cost and it will calculated automatically.if user have a promo code ,user can take a special offer",
+        "clientSide": "JS,HTML,CSS ",
+        "Hosting": "Netlify",
+        "liveLink": "https://clever-clarke-382614.netlify.app/",
+        "clientLink": "https://github.com/programming-hero-web-course2/mac-book-pro-Mehedi287"
+    },
+    {
+        "id": 5,
+        "name": "Creating Slider",
+        "img1": "https://i.postimg.cc/rFjGzh6Q/create-slider.png",
+        "img2": "",
+        "img3": "",
+        "details": "",
+        "clientSide": "React,Mui,JS,React Hook Form,Firebase",
+        "database": "MongoDB, ,Express,Axios,Cros",
+        "Hosting": "Firebase,Heroku",
+        "liveLink": "",
+        "clientLink": "",
+        "serverSiteLink": ""
+    },
+    {
+        "id": 6,
+        "name": "soft Teach It",
+        "img1": "https://i.ibb.co/3ctFjTj/soft-text-it.png",
+        "img2": "",
+        "img3": "",
+        "details": "",
+        "clientSide": "React,Mui,JS,React Hook Form,Firebase",
+        "database": "MongoDB, ,Express,Axios,Cros",
+        "Hosting": "Firebase,Heroku",
+        "liveLink": "",
+        "clientLink": "",
+        "serverSiteLink": ""
+    }
+]

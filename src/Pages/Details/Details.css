@@ -1,0 +1,9 @@
+.details{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 10px auto;
+    background-color: rgb(54, 53, 53);
+
+}
