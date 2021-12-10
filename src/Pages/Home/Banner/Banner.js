@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="container d-flex row p-5 align-item-center justify-content-center">
                 <div className="col-md-5 p-5 rounded-circle  border-3 border-white" >
                     <img className="img-fluid mehedi" src={mehedi} alt="" data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-center" data-aos-duration="2000" />
+                        data-aos-duration="2000" />
                 </div>
                 <div className="col-md-5">
                     <div className="about-me text-align-left" data-aos="fade-left"
