@@ -1,5 +1,9 @@
 
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter,
@@ -15,6 +19,7 @@ import AboutMe from './Pages/AboutMe/AboutMe';
 import Blogs from './Pages/Bloges/Blogs';
 import backgroun from "../src/images/background.mp4";
 import Particles from 'react-particles-js';
+AOS.init();
 function App() {
   return (
     <div className="App">

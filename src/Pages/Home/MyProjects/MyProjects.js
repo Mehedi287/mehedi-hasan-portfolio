@@ -21,7 +21,7 @@ const Myservices = () => {
             <div className="container project-container">
 
                 {
-                    projects.slice(0, 4).map(project => <ProjectCart className="col" project={project} key={project.id}></ProjectCart>)
+                    projects.slice(0, 4).map(project => <ProjectCart className="col" project={project} key={project.id} ></ProjectCart>)
                 }
 
 
