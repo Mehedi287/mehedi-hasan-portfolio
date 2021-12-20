@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="mb-5">
             <div className="container d-flex row p-5 align-item-center justify-content-center">
                 <div className="col-md-5 p-5 rounded-circle  border-3 border-white" >
-                    <img className="img-fluid mehedi" src={mehedi} alt="" data-aos="fade-up"
+                    <img className="img-fluid mehedi animation-img" src={mehedi} alt="" data-aos="fade-up"
                         data-aos-duration="2000" />
                 </div>
                 <div className="col-md-5">
@@ -21,17 +21,17 @@ const Banner = () => {
                         <p className="text-align-left">I am a simple man who is trying to learn something every moment. I am learning font-end web development with the  Programming Hero community. I always love to upgrade myself to new programming skills. I try created and designed a super responsive website. I have one year experience with ,HTML,CSS,JS,React Router.</p><br />
                     </div>
                     <div className="d-flex row g-4">
-                        <div className="col-md-4 ">
+                        <div className="col-4 ">
                             <a className="text-decoration-none" href="mehedihasan@gmail.com">
                                 <i class=" icon fas fa-envelope"></i>
                             </a>
                         </div>
-                        <div className="col-md-4 ">
+                        <div className="col-4 ">
                             <a href="https://github.com/Mehedi287">
                                 <i class="icon fab fa-github"></i>
                             </a>
                         </div>
-                        <div className="col-md-4 ">
+                        <div className="col-4 ">
                             <a href="https://www.linkedin.com/in/mehedi-hasan-617040227">
                                 <i class="col-md-4 icon fab fa-linkedin"></i>
                             </a>

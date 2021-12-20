@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MySkills.css"
-import html from "../../../images/html_and_css-removebg-preview.png"
+import video2 from "../../../images/video2.gif"
 const MySkills = () => {
     return (
         <div>
@@ -9,14 +9,23 @@ const MySkills = () => {
                 data-aos-duration="2500"> <span className="my">My</span> <span className="skills">Skills</span></h1>
 
             <hr className="mb-5 hr1" data-aos="zoom-in" data-aos-duration="2500" />
-            <div className="container d-flex row mx-auto p-4" >
-                <div className="col-md-5">
-                    <div className="">
-                        <img className="img-fluid w-75" src={html} alt="" data-aos-duration="1800" data-aos="fade-left" data-aos-easing="linear" data-aos-offset="500" />
+            <div className="container d-flex row mx-auto p-4 " >
+                <div className="col-md-5 ">
+                    <div className="me-md-4 mb-3 pt-md-4">
+                        <video
+                            muted
+                            autoPlay={"autoplay"}
+                            preLoad="auto"
+                            loop data-aos="fade-up"
+                            data-aos-duration="2000" height="400px" className='img-fluid w-100 rounded-md '  >
+                            <source src="https://cdn.dribbble.com/users/285475/videos/16198/instagram.mp4" type="video/mp4" />
+                        </video>
+
                     </div>
 
                 </div>
-                <div className="col-md-7">
+                <div data-aos="fade-up"
+                    data-aos-duration="2000" className="col-md-7 p-4 rounded animation-img">
                     <div className="d-flex row g-4">
                         <div className="col-md-3 col-6">
                             <div className="skill" data-aos="zoom-in-up" data-aos-duration="1800">
