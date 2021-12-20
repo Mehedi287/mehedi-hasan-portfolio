@@ -12,7 +12,7 @@ const MySkills = () => {
             <div className="container d-flex row mx-auto p-4 " >
                 <div className="col-md-5 ">
                     <div className="me-md-4 mb-3 pt-md-4">
-                        <img src={video1} alt="" />
+                        <img className='img-fluid' src={video1} alt="" />
 
                     </div>
 
